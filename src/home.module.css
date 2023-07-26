@@ -1,0 +1,9 @@
+.color {
+  color: orange;
+}
+
+.image {
+  width: 16rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
