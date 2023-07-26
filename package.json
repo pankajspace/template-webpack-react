@@ -8,6 +8,7 @@
     "build:dev": "webpack --config webpack.dev.js",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix"
+    "build-dev": "webpack --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
