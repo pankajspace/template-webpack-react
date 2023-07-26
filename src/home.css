@@ -1,0 +1,16 @@
+.color {
+  color: orange;
+}
+
+.image {
+  width: 16rem;
+  border-radius: 3rem;
+  transition: all 2s ease;
+}
+
+div.outer {
+  color: red;
+  div.inner {
+    color: blue;
+  }
+}
