@@ -3,6 +3,8 @@ import homeStyles from "./home.css";
 import aboutStyles from "./about.css";
 import webpackLogo from "./img/webpack.png";
 
+import "./react-app";
+
 console.log('Hello Webpack', homeStyles);
 
 $(".hello").html("Hello Webpack");
