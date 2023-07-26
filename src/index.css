@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Lumanosimo-Regular';
+  src: url('./font/Lumanosimo-Regular.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+html {
+  font-family: "Lumanosimo-Regular", sans-serif;
+  /* for making 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+}
