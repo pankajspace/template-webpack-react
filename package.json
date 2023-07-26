@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
+<<<<<<< HEAD
     "build:dev": "webpack --config webpack.dev.js",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix"
+=======
+    "build-dev": "webpack --config webpack.dev.js"
+>>>>>>> origin/10-postcss
   },
   "repository": {
     "type": "git",
@@ -23,7 +27,10 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.8.1",
+<<<<<<< HEAD
     "eslint": "^8.45.0",
+=======
+>>>>>>> origin/10-postcss
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "^8.4.27",
