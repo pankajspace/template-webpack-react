@@ -27,6 +27,9 @@
 8. Adding ESLint
    1. npm i --save-dev eslint
    2. touch .eslintrc.js
+9. Adding React
+   1. npm i react react-dom
+   2. npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 
 ## Links
 
