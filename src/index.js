@@ -1,23 +1,11 @@
-import "./index.css";
-import homeStyles from "./home.css";
-import aboutStyles from "./about.css";
-import webpackLogo from "./img/webpack.png";
+import React from "react";
 
-import "./react-app";
+import { createRoot } from 'react-dom/client';
+import App from "./App";
 
-console.log('Hello Webpack', homeStyles);
-
-$(".hello").html("Hello Webpack");
-
-$("#image").attr("src", webpackLogo);
-
-$("#css-modules-1").addClass(homeStyles.color);
-$("#css-modules-2").addClass(aboutStyles.color);
-
-$("#image").addClass(homeStyles.image);
-
-$("#outer").addClass(homeStyles.outer);
-$("#inner").addClass(homeStyles.inner);
+const container = document.getElementById('react-app');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(<App />);
 
 
 

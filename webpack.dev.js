@@ -14,7 +14,8 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'),
+      // directory: path.join(__dirname, 'dist'),
+      directory: path.join(__dirname, 'src'), //for enabling hot reloading for changes in src directory
     },
     compress: true,
     port: 8000,
