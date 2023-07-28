@@ -30,6 +30,10 @@
 9. Adding React
    1. npm i react react-dom
    2. npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
+10. Adding TypeScript
+    1. https://webpack.js.org/guides/typescript/
+    2. npm i --save-dev typescript ts-loader
+    3. npm i --save-dev @types/react @types/react-dom
 
 ## Links
 
