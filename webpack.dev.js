@@ -6,9 +6,9 @@ const webpack = require('webpack');
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
-  entry: './src/index.js',
+  entry: { main: './src/index.js' },
   output: {
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true
   },
@@ -68,7 +68,7 @@ module.exports = {
       favicon: './src/img/webpack.png',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
+      filename: '[name].bundle.css',
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
