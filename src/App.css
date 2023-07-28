@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+}

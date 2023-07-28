@@ -34,6 +34,7 @@
     1. https://webpack.js.org/guides/typescript/
     2. npm i --save-dev typescript ts-loader
     3. npm i --save-dev @types/react @types/react-dom
+11. Code Splitting example: Note that when we click on about link then only about.js and about.css will be loaded in the browser
 
 ## Links
 
