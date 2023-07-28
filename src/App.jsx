@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./index.css";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Logo from "./components/logo/Logo";
+const Home = React.lazy(() => import( /* webpackChunkName: "Home" */ './components/home/Home'));
+const About = React.lazy(() => import( /* webpackChunkName: "About" */ './components/about/About'));
+const Logo = React.lazy(() => import( /* webpackChunkName: "Logo" */ './components/logo/Logo'));
 
 export default function App() {
   return <>
