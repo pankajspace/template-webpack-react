@@ -1,7 +1,10 @@
-.nav {
+.app {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  place-items: center;
+}
 
+.nav {
   a {
     margin: 0 1rem;
     cursor: pointer;

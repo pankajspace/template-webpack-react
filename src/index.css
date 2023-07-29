@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+:root {
+  --bgColor: black;
+  --color: white
+}
+
 html {
   font-family: "Lumanosimo-Regular", sans-serif;
   /* for making 1rem = 10px */
@@ -12,8 +17,7 @@ html {
 }
 
 body {
-  background-color: black;
-  color: white;
-  font-size: 2rem;
-  text-align: center;
+  background-color: var(--bgColor);
+  color: var(--color);
+  font-size: 1.6rem;
 }
