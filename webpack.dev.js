@@ -13,13 +13,10 @@ module.exports = {
     clean: true
   },
   devServer: {
-    static: {
-      // directory: path.join(__dirname, 'dist'),
-      directory: path.join(__dirname, 'src'), //for enabling hot reloading for changes in src directory
-    },
     compress: true,
     port: 8000,
     hot: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -35,8 +32,8 @@ module.exports = {
       },
       {
         test: /\.(ts|tsx)?$/,
-        use: 'ts-loader',
         exclude: /node_modules/,
+        use: 'ts-loader',
       },
       {
         test: /\.css$/i,
@@ -44,7 +41,7 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           {
             loader: "css-loader",
-            options: { modules: true, importLoaders: 2 },
+            options: { modules: true, importLoaders: 1 },
           },
           "postcss-loader"
         ],
